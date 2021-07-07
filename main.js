@@ -18,10 +18,10 @@ console.log(document.all[4]);
 
 //DOM part2
 console.log(document.getElementById("demo"));
-let headerElement = document.getElementById("header");
-headerElement.textContent = "Change Text";
-headerElement.innerText = "Hello World"
-console.log(headerElement.textContent);
+//let headerElement = document.getElementById("header");
+//headerElement.textContent = "Change Text";
+//headerElement.innerText = "Hello World"
+//console.log(headerElement.textContent);
 
 
 //headerElement.style.color = "red";
@@ -60,5 +60,12 @@ console.log(d)
 let e = c % c;
 console.log(e)
 
-const myName = 3;
-console.log(myName)
+//const myName = 3;
+//console.log(myName)
+
+let headerElement = document.getElementById('header');
+headerElement.style.fontSize = '40px'
+headerElement.style.color = 'red'
+
+// Part 4
+
